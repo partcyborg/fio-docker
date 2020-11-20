@@ -1,6 +1,6 @@
-FROM alpine:3.10.1
+FROM alpine:3.12
 
-RUN apk add --no-cache fio==3.13-r1
+RUN apk add --no-cache fio==3.20-r0
 
 COPY jobs /jobs
 VOLUME /data
